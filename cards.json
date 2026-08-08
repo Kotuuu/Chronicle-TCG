@@ -1,1 +1,569 @@
-
+{
+  "CHR-001": {
+    "id": "CHR-001",
+    "face": {
+      "front": {
+        "name": "Full Art (2)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%282%29.jpg"
+      }
+    },
+    "name": "Full Art (2)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-002": {
+    "id": "CHR-002",
+    "face": {
+      "front": {
+        "name": "Full Art (3)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%283%29.jpg"
+      }
+    },
+    "name": "Full Art (3)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-003": {
+    "id": "CHR-003",
+    "face": {
+      "front": {
+        "name": "Full Art (4)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%284%29.jpg"
+      }
+    },
+    "name": "Full Art (4)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-004": {
+    "id": "CHR-004",
+    "face": {
+      "front": {
+        "name": "Full Art (5)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%285%29.jpg"
+      }
+    },
+    "name": "Full Art (5)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-005": {
+    "id": "CHR-005",
+    "face": {
+      "front": {
+        "name": "Full Art (6)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%286%29.jpg"
+      }
+    },
+    "name": "Full Art (6)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-006": {
+    "id": "CHR-006",
+    "face": {
+      "front": {
+        "name": "Full Art (7)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%287%29.jpg"
+      }
+    },
+    "name": "Full Art (7)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-007": {
+    "id": "CHR-007",
+    "face": {
+      "front": {
+        "name": "Full Art (8)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%288%29.jpg"
+      }
+    },
+    "name": "Full Art (8)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-008": {
+    "id": "CHR-008",
+    "face": {
+      "front": {
+        "name": "Full Art (9)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%289%29.jpg"
+      }
+    },
+    "name": "Full Art (9)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-009": {
+    "id": "CHR-009",
+    "face": {
+      "front": {
+        "name": "Full Art (10)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%2810%29.jpg"
+      }
+    },
+    "name": "Full Art (10)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-010": {
+    "id": "CHR-010",
+    "face": {
+      "front": {
+        "name": "Full Art (11)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20%2811%29.jpg"
+      }
+    },
+    "name": "Full Art (11)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-011": {
+    "id": "CHR-011",
+    "face": {
+      "front": {
+        "name": "Full Art Spell (2)",
+        "type": "Spell",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20Spell%20%282%29.jpg"
+      }
+    },
+    "name": "Full Art Spell (2)",
+    "type": "Spell",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-012": {
+    "id": "CHR-012",
+    "face": {
+      "front": {
+        "name": "Full Art Spell (3)",
+        "type": "Spell",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Full%20Art%20Spell%20%283%29.jpg"
+      }
+    },
+    "name": "Full Art Spell (3)",
+    "type": "Spell",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Full Art",
+    "isToken": false
+  },
+  "CHR-013": {
+    "id": "CHR-013",
+    "face": {
+      "front": {
+        "name": "Normal (2)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20%282%29.jpg"
+      }
+    },
+    "name": "Normal (2)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-014": {
+    "id": "CHR-014",
+    "face": {
+      "front": {
+        "name": "Normal (3)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20%283%29.jpg"
+      }
+    },
+    "name": "Normal (3)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-015": {
+    "id": "CHR-015",
+    "face": {
+      "front": {
+        "name": "Normal (4)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20%284%29.jpg"
+      }
+    },
+    "name": "Normal (4)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-016": {
+    "id": "CHR-016",
+    "face": {
+      "front": {
+        "name": "Normal (5)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20%285%29.jpg"
+      }
+    },
+    "name": "Normal (5)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-017": {
+    "id": "CHR-017",
+    "face": {
+      "front": {
+        "name": "Normal (6)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20%286%29.jpg"
+      }
+    },
+    "name": "Normal (6)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-018": {
+    "id": "CHR-018",
+    "face": {
+      "front": {
+        "name": "Normal (7)",
+        "type": "Creature",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20%287%29.jpg"
+      }
+    },
+    "name": "Normal (7)",
+    "type": "Creature",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-019": {
+    "id": "CHR-019",
+    "face": {
+      "front": {
+        "name": "Normal Spell (2)",
+        "type": "Spell",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20Spell%20%282%29.jpg"
+      }
+    },
+    "name": "Normal Spell (2)",
+    "type": "Spell",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-020": {
+    "id": "CHR-020",
+    "face": {
+      "front": {
+        "name": "Normal Spell (3)",
+        "type": "Spell",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20Spell%20%283%29.jpg"
+      }
+    },
+    "name": "Normal Spell (3)",
+    "type": "Spell",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-021": {
+    "id": "CHR-021",
+    "face": {
+      "front": {
+        "name": "Normal Spell (4)",
+        "type": "Spell",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Normal%20Spell%20%284%29.jpg"
+      }
+    },
+    "name": "Normal Spell (4)",
+    "type": "Spell",
+    "cost": "0",
+    "speed": "Normal",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Main Deck",
+    "template": "Normal",
+    "isToken": false
+  },
+  "CHR-022": {
+    "id": "CHR-022",
+    "face": {
+      "front": {
+        "name": "Erimantite",
+        "type": "Resource",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Resource.png"
+      }
+    },
+    "name": "Erimantite",
+    "type": "Resource",
+    "cost": "0",
+    "speed": "N/A",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Resource Deck",
+    "template": "Resource",
+    "isToken": false
+  },
+  "CHR-023": {
+    "id": "CHR-023",
+    "face": {
+      "front": {
+        "name": "Titan - H (2)",
+        "type": "Titan",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Titan%20-%20H%20%282%29.jpg"
+      }
+    },
+    "name": "Titan - H (2)",
+    "type": "Titan",
+    "cost": "0",
+    "speed": "N/A",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Titan Deck",
+    "template": "Titan",
+    "isToken": false
+  },
+  "CHR-024": {
+    "id": "CHR-024",
+    "face": {
+      "front": {
+        "name": "Titan - H (3)",
+        "type": "Titan",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Titan%20-%20H%20%283%29.jpg"
+      }
+    },
+    "name": "Titan - H (3)",
+    "type": "Titan",
+    "cost": "0",
+    "speed": "N/A",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Titan Deck",
+    "template": "Titan",
+    "isToken": false
+  },
+  "CHR-025": {
+    "id": "CHR-025",
+    "face": {
+      "front": {
+        "name": "Titan (2)",
+        "type": "Titan",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Titan%20%282%29.jpg"
+      }
+    },
+    "name": "Titan (2)",
+    "type": "Titan",
+    "cost": "0",
+    "speed": "N/A",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Titan Deck",
+    "template": "Titan",
+    "isToken": false
+  },
+  "CHR-026": {
+    "id": "CHR-026",
+    "face": {
+      "front": {
+        "name": "Titan (3)",
+        "type": "Titan",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Titan%20%283%29.jpg"
+      }
+    },
+    "name": "Titan (3)",
+    "type": "Titan",
+    "cost": "0",
+    "speed": "N/A",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Titan Deck",
+    "template": "Titan",
+    "isToken": false
+  },
+  "CHR-027": {
+    "id": "CHR-027",
+    "face": {
+      "front": {
+        "name": "Titan",
+        "type": "Titan",
+        "cost": "0",
+        "image": "https://YOURUSERNAME.github.io/chronicle-tcg/cards/Titan.jpg"
+      }
+    },
+    "name": "Titan",
+    "type": "Titan",
+    "cost": "0",
+    "speed": "N/A",
+    "faction": "Unassigned",
+    "rarity": "Prototype",
+    "set": "Prototype",
+    "deck": "Titan Deck",
+    "template": "Titan",
+    "isToken": false
+  }
+}
