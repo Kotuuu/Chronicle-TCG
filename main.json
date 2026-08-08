@@ -6,8 +6,8 @@
   "customHelp": "Chronicle TCG starter configuration. Main Deck uses the normal Deck zone. Titan Deck and Resource Deck are separate board zones. During early testing, move Titan and Resource cards into their correct decks manually after loading a deck.",
   "cardRotation": 0,
   "cards": {
-    "dataUrl": "https://Kotuuu.github.io/chronicle-tcg/cards.json",
-    "cardBack": "https://Kotuuu.github.io/chronicle-tcg/cards/card-back.png"
+    "dataUrl": "https://Kotuuu.github.io/Chronicle-TCG/cards.json",
+    "cardBack": "https://Kotuuu.github.io/Chronicle-TCG/cards/card-back.png"
   },
   "deckBuilding": {
     "mainFilters": [
