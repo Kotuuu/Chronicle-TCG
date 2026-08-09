@@ -6,7 +6,7 @@
         "name": "Mutated Rat",
         "type": "Creature",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C01.png",
         "isHorizontal": false
       }
     },
@@ -31,7 +31,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C01.png"
   },
   "ST-C02": {
     "id": "ST-C02",
@@ -40,7 +41,7 @@
         "name": "Deep Drake Wyrmling",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C02.png",
         "isHorizontal": false
       }
     },
@@ -65,7 +66,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C02.png"
   },
   "ST-C03": {
     "id": "ST-C03",
@@ -74,7 +76,7 @@
         "name": "Cloaker",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C03.png",
         "isHorizontal": false
       }
     },
@@ -99,7 +101,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C03.png"
   },
   "ST-C04": {
     "id": "ST-C04",
@@ -108,7 +111,7 @@
         "name": "Umberhulk Egg",
         "type": "Creature",
         "cost": 0,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C04.png",
         "isHorizontal": false
       }
     },
@@ -133,7 +136,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C04.png"
   },
   "ST-C05": {
     "id": "ST-C05",
@@ -142,7 +146,7 @@
         "name": "Wasteland Scavenger",
         "type": "Creature",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C05.png",
         "isHorizontal": false
       }
     },
@@ -167,7 +171,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C05.png"
   },
   "ST-C06": {
     "id": "ST-C06",
@@ -176,7 +181,7 @@
         "name": "Giant Rat",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C06.png",
         "isHorizontal": false
       }
     },
@@ -201,7 +206,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C06.png"
   },
   "ST-C07": {
     "id": "ST-C07",
@@ -210,7 +216,7 @@
         "name": "Deep Drake",
         "type": "Creature",
         "cost": 3,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C07.png",
         "isHorizontal": false
       }
     },
@@ -235,7 +241,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C07.png"
   },
   "ST-C08": {
     "id": "ST-C08",
@@ -244,7 +251,7 @@
         "name": "Umberhulk",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C08.png",
         "isHorizontal": false
       }
     },
@@ -269,7 +276,8 @@
     "Action2ATK": 5,
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C08.png"
   },
   "ST-S01": {
     "id": "ST-S01",
@@ -278,7 +286,7 @@
         "name": "Pack Tactics",
         "type": "Spell",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S01.png",
         "isHorizontal": false
       }
     },
@@ -303,7 +311,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S01.png"
   },
   "ST-S02": {
     "id": "ST-S02",
@@ -312,7 +321,7 @@
         "name": "Scavenge Ruins",
         "type": "Spell",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S02.png",
         "isHorizontal": false
       }
     },
@@ -337,7 +346,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S02.png"
   },
   "ST-S03": {
     "id": "ST-S03",
@@ -346,7 +356,7 @@
         "name": "Harsh Climate",
         "type": "Spell",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S03.png",
         "isHorizontal": false
       }
     },
@@ -371,7 +381,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S03.png"
   },
   "ST-T01": {
     "id": "ST-T01",
@@ -380,7 +391,7 @@
         "name": "Nightmare Deep Drake",
         "type": "Titan",
         "cost": 3,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T01.png",
         "isHorizontal": false
       }
     },
@@ -405,7 +416,8 @@
     "Action2ATK": 7,
     "Action2Effect": "If you control another Beast, this attack gets +1 ATK.",
     "isToken": false,
-    "deck": "Titan Deck"
+    "deck": "Titan Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T01.png"
   },
   "ST-T02": {
     "id": "ST-T02",
@@ -414,7 +426,7 @@
         "name": "Remohulk",
         "type": "Titan",
         "cost": 4,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T02.png",
         "isHorizontal": false
       }
     },
@@ -439,7 +451,8 @@
     "Action2ATK": 8,
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Titan Deck"
+    "deck": "Titan Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T02.png"
   },
   "ST-C09": {
     "id": "ST-C09",
@@ -448,7 +461,7 @@
         "name": "GC Labourer",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C09.png",
         "isHorizontal": false
       }
     },
@@ -473,7 +486,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C09.png"
   },
   "ST-C10": {
     "id": "ST-C10",
@@ -482,7 +496,7 @@
         "name": "GC Greaser",
         "type": "Creature",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C10.png",
         "isHorizontal": false
       }
     },
@@ -507,7 +521,8 @@
     "Action2ATK": 2,
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C10.png"
   },
   "ST-C11": {
     "id": "ST-C11",
@@ -516,7 +531,7 @@
         "name": "GC Cog",
         "type": "Creature",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C11.png",
         "isHorizontal": false
       }
     },
@@ -541,7 +556,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C11.png"
   },
   "ST-C12": {
     "id": "ST-C12",
@@ -550,7 +566,7 @@
         "name": "Tri-Sigil Soldier",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C12.png",
         "isHorizontal": false
       }
     },
@@ -575,7 +591,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C12.png"
   },
   "ST-C13": {
     "id": "ST-C13",
@@ -584,7 +601,7 @@
         "name": "Tri-Sigil Automaton",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C13.png",
         "isHorizontal": false
       }
     },
@@ -609,7 +626,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C13.png"
   },
   "ST-C14": {
     "id": "ST-C14",
@@ -618,7 +636,7 @@
         "name": "GC Lever",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C14.png",
         "isHorizontal": false
       }
     },
@@ -643,7 +661,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C14.png"
   },
   "ST-C15": {
     "id": "ST-C15",
@@ -652,7 +671,7 @@
         "name": "Tri-Sigil Captain",
         "type": "Creature",
         "cost": 3,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C15.png",
         "isHorizontal": false
       }
     },
@@ -677,7 +696,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C15.png"
   },
   "ST-C16": {
     "id": "ST-C16",
@@ -686,7 +706,7 @@
         "name": "GC Golem",
         "type": "Creature",
         "cost": 3,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C16.png",
         "isHorizontal": false
       }
     },
@@ -711,7 +731,8 @@
     "Action2ATK": "-",
     "Action2Effect": "Your opponent cannot attack \"Operator\" Creatures while this card is on the Field.",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C16.png"
   },
   "ST-S04": {
     "id": "ST-S04",
@@ -720,7 +741,7 @@
         "name": "Tri-Sigil Shield",
         "type": "Spell",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S04.png",
         "isHorizontal": false
       }
     },
@@ -745,7 +766,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S04.png"
   },
   "ST-S05": {
     "id": "ST-S05",
@@ -754,7 +776,7 @@
         "name": "Command Protocol: Kill",
         "type": "Spell",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S05.png",
         "isHorizontal": false
       }
     },
@@ -779,7 +801,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S05.png"
   },
   "ST-S06": {
     "id": "ST-S06",
@@ -788,7 +811,7 @@
         "name": "GC Citizenship",
         "type": "Spell",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S06.png",
         "isHorizontal": false
       }
     },
@@ -813,7 +836,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S06.png"
   },
   "ST-T03": {
     "id": "ST-T03",
@@ -822,7 +846,7 @@
         "name": "Operator General Micheal Polymat",
         "type": "Titan",
         "cost": 3,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T03.png",
         "isHorizontal": false
       }
     },
@@ -847,7 +871,8 @@
     "Action2ATK": "-",
     "Action2Effect": "All \"Tri-Sigil\" Creatures you control gain +2 DEF until the start of your next turn.",
     "isToken": false,
-    "deck": "Titan Deck"
+    "deck": "Titan Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T03.png"
   },
   "ST-T04": {
     "id": "ST-T04",
@@ -856,7 +881,7 @@
         "name": "GC Adamantite Golem",
         "type": "Titan",
         "cost": 4,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T04.png",
         "isHorizontal": false
       }
     },
@@ -881,7 +906,8 @@
     "Action2ATK": 7,
     "Action2Effect": "If you control any other \"GC\" Creature, increase this attack's ATK by +1.",
     "isToken": false,
-    "deck": "Titan Deck"
+    "deck": "Titan Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T04.png"
   },
   "ST-C17": {
     "id": "ST-C17",
@@ -890,7 +916,7 @@
         "name": "Planterrainer Scanner",
         "type": "Creature",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C17.png",
         "isHorizontal": false
       }
     },
@@ -915,7 +941,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C17.png"
   },
   "ST-C18": {
     "id": "ST-C18",
@@ -924,7 +951,7 @@
         "name": "Planterrainer Infantry",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C18.png",
         "isHorizontal": false
       }
     },
@@ -949,7 +976,8 @@
     "Action2ATK": 2,
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C18.png"
   },
   "ST-C19": {
     "id": "ST-C19",
@@ -958,7 +986,7 @@
         "name": "Planterrainer Gunner",
         "type": "Creature",
         "cost": 3,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C19.png",
         "isHorizontal": false
       }
     },
@@ -983,7 +1011,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C19.png"
   },
   "ST-C20": {
     "id": "ST-C20",
@@ -992,7 +1021,7 @@
         "name": "Malice Blob",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C20.png",
         "isHorizontal": false
       }
     },
@@ -1017,7 +1046,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C20.png"
   },
   "ST-C21": {
     "id": "ST-C21",
@@ -1026,7 +1056,7 @@
         "name": "Dragonborn Soul Vessel",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C21.png",
         "isHorizontal": false
       }
     },
@@ -1051,7 +1081,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C21.png"
   },
   "ST-C22": {
     "id": "ST-C22",
@@ -1060,7 +1091,7 @@
         "name": "Planterrainer Commander",
         "type": "Creature",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C22.png",
         "isHorizontal": false
       }
     },
@@ -1085,7 +1116,8 @@
     "Action2ATK": 5,
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C22.png"
   },
   "ST-C23": {
     "id": "ST-C23",
@@ -1094,7 +1126,7 @@
         "name": "Amalgamated Malice",
         "type": "Creature",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C23.png",
         "isHorizontal": false
       }
     },
@@ -1119,7 +1151,8 @@
     "Action2ATK": 6,
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C23.png"
   },
   "ST-C24": {
     "id": "ST-C24",
@@ -1128,7 +1161,7 @@
         "name": "A.D.M.C.U Prototype",
         "type": "Creature",
         "cost": 4,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C24.png",
         "isHorizontal": false
       }
     },
@@ -1153,7 +1186,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C24.png"
   },
   "ST-S07": {
     "id": "ST-S07",
@@ -1162,7 +1196,7 @@
         "name": "Synthesized Rations",
         "type": "Spell",
         "cost": 2,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S07.png",
         "isHorizontal": false
       }
     },
@@ -1187,7 +1221,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S07.png"
   },
   "ST-S08": {
     "id": "ST-S08",
@@ -1196,7 +1231,7 @@
         "name": "Planterrainer Research",
         "type": "Spell",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S08.png",
         "isHorizontal": false
       }
     },
@@ -1221,7 +1256,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S08.png"
   },
   "ST-S09": {
     "id": "ST-S09",
@@ -1230,7 +1266,7 @@
         "name": "Adaptive Programming",
         "type": "Spell",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S09.png",
         "isHorizontal": false
       }
     },
@@ -1255,7 +1291,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S09.png"
   },
   "ST-T05": {
     "id": "ST-T05",
@@ -1264,7 +1301,7 @@
         "name": "A.D.M.C.U",
         "type": "Titan",
         "cost": 5,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T05.png",
         "isHorizontal": false
       }
     },
@@ -1289,7 +1326,8 @@
     "Action2ATK": 9,
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Titan Deck"
+    "deck": "Titan Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T05.png"
   },
   "ST-T06": {
     "id": "ST-T06",
@@ -1298,7 +1336,7 @@
         "name": "Malice Amalgamation",
         "type": "Titan",
         "cost": 4,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T06.png",
         "isHorizontal": false
       }
     },
@@ -1323,7 +1361,8 @@
     "Action2ATK": 7,
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Titan Deck"
+    "deck": "Titan Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T06.png"
   },
   "ST-C25": {
     "id": "ST-C25",
@@ -1332,7 +1371,7 @@
         "name": "Borgie",
         "type": "Creature",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C25.png",
         "isHorizontal": false
       }
     },
@@ -1357,7 +1396,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-C25.png"
   },
   "ST-S10": {
     "id": "ST-S10",
@@ -1366,7 +1406,7 @@
         "name": "Lightning Bolt",
         "type": "Spell",
         "cost": 1,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S10.png",
         "isHorizontal": false
       }
     },
@@ -1391,7 +1431,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Main Deck"
+    "deck": "Main Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-S10.png"
   },
   "ST-T07": {
     "id": "ST-T07",
@@ -1400,7 +1441,7 @@
         "name": "Irradiated Leviathan",
         "type": "Titan",
         "cost": 4,
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T07.png",
         "isHorizontal": false
       }
     },
@@ -1425,7 +1466,8 @@
     "Action2ATK": "-",
     "Action2Effect": "-",
     "isToken": false,
-    "deck": "Titan Deck"
+    "deck": "Titan Deck",
+    "image": "https://kotuuu.github.io/Chronicle-TCG/cards/test/ST-T07.png"
   },
   "ST-R01": {
     "id": "ST-R01",
