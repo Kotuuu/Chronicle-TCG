@@ -3,8 +3,8 @@
   "defaultRessources": {
     "backgrounds": []
   },
-  "customHelp": "Chronicle TCG prototype.\n\nMain Deck: 25-30 cards, maximum 2 copies per card.\nTitan Deck: 1-5 Titan cards, maximum 2 copies per card.\nResource Deck: exactly 15 Resource cards; Resources are exempt from the 2-copy limit.\n\nOpening hand: 5 Main Deck cards. No mulligan. Each player starts with 3 Points.\nThe first player skips both draws on their first turn. On later turns, draw 1 from the Main Deck and 1 from the Resource Deck.\n\nChronicle uses manual combat/effect enforcement in TCG Arena. Stage Boosts, attack legality, resource attachment, spell costs, Field Spell replacement, direct attacks, Points, hand limit, and deck-out are handled by the players.",
-  "cardRotation": 0,
+  "customHelp": "CHRONICLE TCG — PLAYTEST CONFIGURATION\n\nDECK CONSTRUCTION\nMain Deck: 25-30 cards, maximum 2 copies of a card.\nTitan Deck: 1-5 Titan cards, maximum 2 copies of a card.\nResource Deck: exactly 15 Resource cards. Resources are exempt from the normal 2-copy limit.\n\nTCG ARENA SETUP\nTitan cards are automatically separated into the visible Titan Deck.\nResource cards are automatically separated into the hidden Resource Deck.\nAll other cards remain in the Main Deck.\n\nGAME START\nDraw 5 cards from the Main Deck. No mulligan. Start with 3 Points.\nThe first player skips both draws on their first turn. Because TCG Arena skips the automatic first-turn draw for both players, the SECOND player should manually draw 1 Main Deck card and 1 Resource card on their first turn.\n\nTURN: DP > SP > MP > BP > EP\nOn later turns, TCG Arena draws 1 Main Deck card and the Resource Deck is configured to draw 1 Resource.\nIf a drawn Resource appears in the normal Hand, play/move it to the Resource Hand zone.\n\nPLAY AREA\nUse C1-C3 for normal Creatures. Use Titan Zone for the single active Titan. Group Stage Boost cards, attached Resources, and Equip Spells with their Creature.\nPlay Spells to the Spell Stack, then move them manually to the correct destination after resolving.\n\nMANUAL RULES\nPlayers enforce Stage Boost requirements, one Creature played from Hand per turn, Resource attachment, Spell costs/timing, combat, Field Spell replacement, direct attacks, Points, hand limit, and deck-out.",
+  "cardRotation": "0",
   "cards": {
     "dataUrl": "https://kotuuu.github.io/Chronicle-TCG/cards.json",
     "cardBack": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
@@ -13,11 +13,11 @@
   "deckBuilding": {
     "mainFilters": [
       "type",
-      "cost",
       "name",
-      "speed",
       "faction",
-      "rarity",
+      "Stage",
+      "CreatureType",
+      "SpellType",
       "set"
     ],
     "formats": [
@@ -31,8 +31,8 @@
       "Standard": {
         "reversedLegality": true,
         "general": {
-          "min": 25,
-          "max": 30,
+          "min": 41,
+          "max": 50,
           "maxPerCard": 2
         },
         "categories": [
@@ -58,11 +58,12 @@
         "chooseAnotherStartingPlayer": false
       },
       "mulligan": {
-        "info": "No mulligan.",
+        "triggeredByButton": false,
         "startingHandSize": "5",
-        "drawNewHand": false,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
+        "mulliganCount": {
+          "min": 0,
+          "max": 0
+        }
       },
       "newTurn": {
         "drawOnStart": false,
@@ -70,22 +71,22 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Turn order: DP > SP > MP > BP > EP. First player skips both Main Deck and Resource Deck draws on their first turn. Use the first counter as Points (start at 3). Rotate a Creature after it attacks/uses an ability; ready it at the start of your next turn.",
+      "defaultNotes": "Chronicle: DP > SP > MP > BP > EP. First player skips both first-turn draws. Second player manually draws 1 Main + 1 Resource on their first turn. The first counter is Points (start at 3). Rotate a Creature after its Attack/Ability.",
       "tokens": [],
       "countersStartingValues": [
-        3
+        "3"
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
           "Titan",
           "Resource",
-          "Resource Hand",
+          "ResourceHand",
           "C1",
           "C2",
           "C3",
-          "Titan Zone",
-          "Field Spell Zone"
+          "TitanZone",
+          "FieldSpellZone"
         ],
         "layout": {
           "direction": "column",
@@ -93,10 +94,13 @@
           "content": [
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "height": "18vh",
+                "margin": "0.25vh"
+              },
               "content": [
                 {
-                  "section": "Titan Zone",
+                  "section": "TitanZone",
                   "style": {
                     "width": "20vh"
                   }
@@ -106,7 +110,10 @@
             },
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "height": "24vh",
+                "margin": "0.25vh"
+              },
               "content": [
                 {
                   "section": "C1",
@@ -131,7 +138,10 @@
             },
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "height": "16vh",
+                "margin": "0.25vh"
+              },
               "content": [
                 {
                   "section": "Titan",
@@ -140,13 +150,13 @@
                   }
                 },
                 {
-                  "section": "Field Spell Zone",
+                  "section": "FieldSpellZone",
                   "style": {
-                    "width": "20vh"
+                    "width": "18vh"
                   }
                 },
                 {
-                  "section": "Resource Hand",
+                  "section": "ResourceHand",
                   "style": {
                     "width": "30vh"
                   }
@@ -167,131 +177,11 @@
           "Resource"
         ],
         "autoPlayFromHand": {
-          "Resource": "Resource Hand",
+          "Resource": "ResourceHand",
           "Spell": "Stack"
         },
         "autoPlayFromStack": {},
         "sectionsDict": {
-          "Hand": {
-            "isDefaultSection": true,
-            "title": "Hand",
-            "isHidden": "opponent-only",
-            "height": "DEFAULT",
-            "alignment": "CENTER",
-            "autoPayFrom": false,
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Discard": {
-            "isDefaultSection": true,
-            "title": "Graveyard",
-            "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "opponentAlignment": false,
-            "displayedTitle": "Graveyard",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Deck": {
-            "isDefaultSection": true,
-            "title": "Main Deck",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": true,
-            "displayedTitle": "Main Deck",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Stack": {
-            "isDefaultSection": true,
-            "title": "Spell Stack",
-            "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "displayedTitle": "Spell Stack",
-            "opponentAlignment": false,
-            "noAutoPayTo": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Exile": {
-            "isDefaultSection": true,
-            "title": "Exile",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "opponentAlignment": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "ExileHidden": {
-            "isDefaultSection": true,
-            "title": "ExileHidden",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "opponentAlignment": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Sideboard": {
-            "isDefaultSection": true,
-            "title": "Sideboard",
-            "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "Titan": {
             "title": "Titan Deck",
             "isHidden": "no",
@@ -325,7 +215,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Resource Hand": {
+          "ResourceHand": {
             "title": "Resource Hand",
             "isHidden": "opponent-only",
             "height": "SMALL",
@@ -389,7 +279,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Titan Zone": {
+          "TitanZone": {
             "title": "Titan Creature Zone",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -405,7 +295,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Field Spell Zone": {
+          "FieldSpellZone": {
             "title": "Field Spell Zone",
             "isHidden": "no",
             "height": "SMALL",
@@ -418,6 +308,23 @@
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Spell Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Spell Stack",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
