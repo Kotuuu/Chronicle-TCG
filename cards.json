@@ -1,569 +1,1378 @@
 {
-  "CHR-001": {
-    "id": "CHR-001",
+  "ST-C01": {
+    "id": "ST-C01",
     "face": {
       "front": {
-        "name": "Full Art (2)",
+        "name": "Mutated Rat",
         "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%282%29.jpg"
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art (2)",
+    "name": "Mutated Rat",
     "type": "Creature",
-    "cost": "0",
+    "cost": 1,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Beast",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 2,
+    "Action1Name": "Bite",
+    "Action1Cost": 1,
+    "Action1ATK": 2,
+    "Action1Effect": "If you control another Beast, this attack gets +1 ATK.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-002": {
-    "id": "CHR-002",
+  "ST-C02": {
+    "id": "ST-C02",
     "face": {
       "front": {
-        "name": "Full Art (3)",
+        "name": "Deep Drake Wyrmling",
         "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%283%29.jpg"
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art (3)",
+    "name": "Deep Drake Wyrmling",
     "type": "Creature",
-    "cost": "0",
+    "cost": 2,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Beast",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 3,
+    "Action1Name": "Spore Shot",
+    "Action1Cost": 2,
+    "Action1ATK": 3,
+    "Action1Effect": "-",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-003": {
-    "id": "CHR-003",
+  "ST-C03": {
+    "id": "ST-C03",
     "face": {
       "front": {
-        "name": "Full Art (4)",
+        "name": "Cloaker",
         "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%284%29.jpg"
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art (4)",
+    "name": "Cloaker",
     "type": "Creature",
-    "cost": "0",
+    "cost": 2,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Monstrosity",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 3,
+    "Action1Name": "Drop Strike",
+    "Action1Cost": 2,
+    "Action1ATK": 3,
+    "Action1Effect": "-",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-004": {
-    "id": "CHR-004",
+  "ST-C04": {
+    "id": "ST-C04",
     "face": {
       "front": {
-        "name": "Full Art (5)",
+        "name": "Umberhulk Egg",
         "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%285%29.jpg"
+        "cost": 0,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art (5)",
+    "name": "Umberhulk Egg",
     "type": "Creature",
-    "cost": "0",
+    "cost": 0,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Beast",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 4,
+    "Action1Name": "-",
+    "Action1Cost": "-",
+    "Action1ATK": "-",
+    "Action1Effect": "-",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-005": {
-    "id": "CHR-005",
+  "ST-C05": {
+    "id": "ST-C05",
     "face": {
       "front": {
-        "name": "Full Art (6)",
+        "name": "Wasteland Scavenger",
         "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%286%29.jpg"
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art (6)",
+    "name": "Wasteland Scavenger",
     "type": "Creature",
-    "cost": "0",
+    "cost": 1,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 3,
+    "Action1Name": "Scavenge",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Draw a card from your Main Deck, then discard a card.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-006": {
-    "id": "CHR-006",
+  "ST-C06": {
+    "id": "ST-C06",
     "face": {
       "front": {
-        "name": "Full Art (7)",
+        "name": "Giant Rat",
         "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%287%29.jpg"
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art (7)",
+    "name": "Giant Rat",
     "type": "Creature",
-    "cost": "0",
+    "cost": 2,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Beast",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Any Rat",
+    "DEF": 4,
+    "Action1Name": "Pack Rush",
+    "Action1Cost": 2,
+    "Action1ATK": 4,
+    "Action1Effect": "If you control another Beast, this attack gets +1 ATK.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-007": {
-    "id": "CHR-007",
+  "ST-C07": {
+    "id": "ST-C07",
     "face": {
       "front": {
-        "name": "Full Art (8)",
+        "name": "Deep Drake",
         "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%288%29.jpg"
+        "cost": 3,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art (8)",
+    "name": "Deep Drake",
     "type": "Creature",
-    "cost": "0",
+    "cost": 3,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Beast",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Deep Drake Wyrmling",
+    "DEF": 5,
+    "Action1Name": "Nightmare",
+    "Action1Cost": 3,
+    "Action1ATK": 5,
+    "Action1Effect": "If this attack destroys a Creature, draw 1 card.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-008": {
-    "id": "CHR-008",
+  "ST-C08": {
+    "id": "ST-C08",
     "face": {
       "front": {
-        "name": "Full Art (9)",
+        "name": "Umberhulk",
         "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%289%29.jpg"
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art (9)",
+    "name": "Umberhulk",
     "type": "Creature",
-    "cost": "0",
+    "cost": 2,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Beast",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Umberhulk Egg",
+    "DEF": 5,
+    "Action1Name": "Confusing Gaze",
+    "Action1Cost": 2,
+    "Action1ATK": "-",
+    "Action1Effect": "Target a Creature and roll a d6. On a 5-6, that Creature cannot use any Attacks until the start of your next turn.",
+    "Action2Name": "Claw Swipe",
+    "Action2Cost": 3,
+    "Action2ATK": 5,
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-009": {
-    "id": "CHR-009",
+  "ST-S01": {
+    "id": "ST-S01",
     "face": {
       "front": {
-        "name": "Full Art (10)",
-        "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%2810%29.jpg"
-      }
-    },
-    "name": "Full Art (10)",
-    "type": "Creature",
-    "cost": "0",
-    "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
-    "isToken": false
-  },
-  "CHR-010": {
-    "id": "CHR-010",
-    "face": {
-      "front": {
-        "name": "Full Art (11)",
-        "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20%2811%29.jpg"
-      }
-    },
-    "name": "Full Art (11)",
-    "type": "Creature",
-    "cost": "0",
-    "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
-    "isToken": false
-  },
-  "CHR-011": {
-    "id": "CHR-011",
-    "face": {
-      "front": {
-        "name": "Full Art Spell (2)",
+        "name": "Pack Tactics",
         "type": "Spell",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20Spell%20%282%29.jpg"
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art Spell (2)",
+    "name": "Pack Tactics",
     "type": "Spell",
-    "cost": "0",
+    "cost": 1,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Normal",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Target a \"Beast\" you control and increase its ATK by +2 until the end of your turn.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-012": {
-    "id": "CHR-012",
+  "ST-S02": {
+    "id": "ST-S02",
     "face": {
       "front": {
-        "name": "Full Art Spell (3)",
+        "name": "Scavenge Ruins",
         "type": "Spell",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Full%20Art%20Spell%20%283%29.jpg"
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Full Art Spell (3)",
+    "name": "Scavenge Ruins",
     "type": "Spell",
-    "cost": "0",
+    "cost": 1,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Full Art",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Normal",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Draw a card from your Main Deck, then discard a card from your SZ.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-013": {
-    "id": "CHR-013",
+  "ST-S03": {
+    "id": "ST-S03",
     "face": {
       "front": {
-        "name": "Normal (2)",
-        "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20%282%29.jpg"
-      }
-    },
-    "name": "Normal (2)",
-    "type": "Creature",
-    "cost": "0",
-    "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
-    "isToken": false
-  },
-  "CHR-014": {
-    "id": "CHR-014",
-    "face": {
-      "front": {
-        "name": "Normal (3)",
-        "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20%283%29.jpg"
-      }
-    },
-    "name": "Normal (3)",
-    "type": "Creature",
-    "cost": "0",
-    "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
-    "isToken": false
-  },
-  "CHR-015": {
-    "id": "CHR-015",
-    "face": {
-      "front": {
-        "name": "Normal (4)",
-        "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20%284%29.jpg"
-      }
-    },
-    "name": "Normal (4)",
-    "type": "Creature",
-    "cost": "0",
-    "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
-    "isToken": false
-  },
-  "CHR-016": {
-    "id": "CHR-016",
-    "face": {
-      "front": {
-        "name": "Normal (5)",
-        "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20%285%29.jpg"
-      }
-    },
-    "name": "Normal (5)",
-    "type": "Creature",
-    "cost": "0",
-    "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
-    "isToken": false
-  },
-  "CHR-017": {
-    "id": "CHR-017",
-    "face": {
-      "front": {
-        "name": "Normal (6)",
-        "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20%286%29.jpg"
-      }
-    },
-    "name": "Normal (6)",
-    "type": "Creature",
-    "cost": "0",
-    "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
-    "isToken": false
-  },
-  "CHR-018": {
-    "id": "CHR-018",
-    "face": {
-      "front": {
-        "name": "Normal (7)",
-        "type": "Creature",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20%287%29.jpg"
-      }
-    },
-    "name": "Normal (7)",
-    "type": "Creature",
-    "cost": "0",
-    "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
-    "isToken": false
-  },
-  "CHR-019": {
-    "id": "CHR-019",
-    "face": {
-      "front": {
-        "name": "Normal Spell (2)",
+        "name": "Harsh Climate",
         "type": "Spell",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20Spell%20%282%29.jpg"
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Normal Spell (2)",
+    "name": "Harsh Climate",
     "type": "Spell",
-    "cost": "0",
+    "cost": 1,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Normal",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Target a \"Beast\" you control and increase its DEF by +1 until the start of your next turn.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-020": {
-    "id": "CHR-020",
+  "ST-T01": {
+    "id": "ST-T01",
     "face": {
       "front": {
-        "name": "Normal Spell (3)",
-        "type": "Spell",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20Spell%20%283%29.jpg"
+        "name": "Nightmare Deep Drake",
+        "type": "Titan",
+        "cost": 3,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Normal Spell (3)",
-    "type": "Spell",
-    "cost": "0",
+    "name": "Nightmare Deep Drake",
+    "type": "Titan",
+    "cost": 3,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Beast",
+    "SpellType": "",
+    "Stage": "Titan",
+    "BoostRequirement": "Deep Drake",
+    "DEF": 7,
+    "Action1Name": "Wing Rend",
+    "Action1Cost": 3,
+    "Action1ATK": 6,
+    "Action1Effect": "-",
+    "Action2Name": "Lucid Nightmare",
+    "Action2Cost": 4,
+    "Action2ATK": 7,
+    "Action2Effect": "If you control another Beast, this attack gets +1 ATK.",
     "isToken": false
   },
-  "CHR-021": {
-    "id": "CHR-021",
+  "ST-T02": {
+    "id": "ST-T02",
     "face": {
       "front": {
-        "name": "Normal Spell (4)",
-        "type": "Spell",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Normal%20Spell%20%284%29.jpg"
+        "name": "Remohulk",
+        "type": "Titan",
+        "cost": 4,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
       }
     },
-    "name": "Normal Spell (4)",
-    "type": "Spell",
-    "cost": "0",
+    "name": "Remohulk",
+    "type": "Titan",
+    "cost": 4,
     "speed": "Normal",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Main Deck",
-    "template": "Normal",
+    "faction": "Deadlands",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Monstrosity",
+    "SpellType": "",
+    "Stage": "Titan",
+    "BoostRequirement": "Any Stage I Umberhulk",
+    "DEF": 8,
+    "Action1Name": "Stitched Slam",
+    "Action1Cost": 4,
+    "Action1ATK": 7,
+    "Action1Effect": "-",
+    "Action2Name": "Thrashing Flesh",
+    "Action2Cost": 5,
+    "Action2ATK": 8,
+    "Action2Effect": "-",
     "isToken": false
   },
-  "CHR-022": {
-    "id": "CHR-022",
+  "ST-C09": {
+    "id": "ST-C09",
+    "face": {
+      "front": {
+        "name": "GC Labourer",
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "GC Labourer",
+    "type": "Creature",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 3,
+    "Action1Name": "Work Labour",
+    "Action1Cost": 2,
+    "Action1ATK": "-",
+    "Action1Effect": "Reveal the top card of your Main Deck. If it is a \"GC\" Creature, add it to your hand. Otherwise, send it to the Graveyard.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C10": {
+    "id": "ST-C10",
+    "face": {
+      "front": {
+        "name": "GC Greaser",
+        "type": "Creature",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "GC Greaser",
+    "type": "Creature",
+    "cost": 1,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 3,
+    "Action1Name": "Tune Up",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Target a Creature you control and roll a d6. On a 4-6, increase its DEF by +2 until the end of your next turn.",
+    "Action2Name": "Wrench Strike",
+    "Action2Cost": 1,
+    "Action2ATK": 2,
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C11": {
+    "id": "ST-C11",
+    "face": {
+      "front": {
+        "name": "GC Cog",
+        "type": "Creature",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "GC Cog",
+    "type": "Creature",
+    "cost": 1,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 4,
+    "Action1Name": "Work Tool",
+    "Action1Cost": 1,
+    "Action1ATK": 2,
+    "Action1Effect": "If you control any \"GC\" Creature, increase this Creature's DEF by +1 until the start of your next turn.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C12": {
+    "id": "ST-C12",
+    "face": {
+      "front": {
+        "name": "Tri-Sigil Soldier",
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Tri-Sigil Soldier",
+    "type": "Creature",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 4,
+    "Action1Name": "Martial Strike",
+    "Action1Cost": 2,
+    "Action1ATK": 3,
+    "Action1Effect": "-",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C13": {
+    "id": "ST-C13",
+    "face": {
+      "front": {
+        "name": "Tri-Sigil Automaton",
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Tri-Sigil Automaton",
+    "type": "Creature",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Construct",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 5,
+    "Action1Name": "Iron Ram",
+    "Action1Cost": 2,
+    "Action1ATK": 3,
+    "Action1Effect": "-",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C14": {
+    "id": "ST-C14",
+    "face": {
+      "front": {
+        "name": "GC Lever",
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "GC Lever",
+    "type": "Creature",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Any Basic GC Creature",
+    "DEF": 4,
+    "Action1Name": "Lever's Strike",
+    "Action1Cost": 2,
+    "Action1ATK": 4,
+    "Action1Effect": "If you control any \"GC\" Creature, increase this Creature's DEF by +1.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C15": {
+    "id": "ST-C15",
+    "face": {
+      "front": {
+        "name": "Tri-Sigil Captain",
+        "type": "Creature",
+        "cost": 3,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Tri-Sigil Captain",
+    "type": "Creature",
+    "cost": 3,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Any \"Tri-Sigil\" Creature",
+    "DEF": 5,
+    "Action1Name": "Piercing Spear",
+    "Action1Cost": 3,
+    "Action1ATK": 5,
+    "Action1Effect": "If this attack destroys a Creature, draw 1 card.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C16": {
+    "id": "ST-C16",
+    "face": {
+      "front": {
+        "name": "GC Golem",
+        "type": "Creature",
+        "cost": 3,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "GC Golem",
+    "type": "Creature",
+    "cost": 3,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Construct",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Tri-Sigil Automaton",
+    "DEF": 5,
+    "Action1Name": "Iron Claw",
+    "Action1Cost": 3,
+    "Action1ATK": 6,
+    "Action1Effect": "-",
+    "Action2Name": "Iron Sentinel",
+    "Action2Cost": 3,
+    "Action2ATK": "-",
+    "Action2Effect": "Your opponent cannot attack \"Operator\" Creatures while this card is on the Field.",
+    "isToken": false
+  },
+  "ST-S04": {
+    "id": "ST-S04",
+    "face": {
+      "front": {
+        "name": "Tri-Sigil Shield",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Tri-Sigil Shield",
+    "type": "Spell",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Equip",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 2,
+    "Action1ATK": "-",
+    "Action1Effect": "You can only attach this to \"Tri-Sigil\" Creatures. Increase the Creature's DEF by +2. You cannot equip this Spell if the Creature already has a \"Tri-Sigil Shield\" equipped.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-S05": {
+    "id": "ST-S05",
+    "face": {
+      "front": {
+        "name": "Command Protocol: Kill",
+        "type": "Spell",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Command Protocol: Kill",
+    "type": "Spell",
+    "cost": 1,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Normal",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Target a \"Construct\" you control and increase its ATK by +1 for its next attack.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-S06": {
+    "id": "ST-S06",
+    "face": {
+      "front": {
+        "name": "GC Citizenship",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "GC Citizenship",
+    "type": "Spell",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Normal",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 2,
+    "Action1ATK": "-",
+    "Action1Effect": "All \"GC\" Creatures you control increase their DEF by +1 until the start of your next turn.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-T03": {
+    "id": "ST-T03",
+    "face": {
+      "front": {
+        "name": "Operator General Micheal Polymat",
+        "type": "Titan",
+        "cost": 3,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Operator General Micheal Polymat",
+    "type": "Titan",
+    "cost": 3,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Titan",
+    "BoostRequirement": "GC Lever",
+    "DEF": 5,
+    "Action1Name": "General's Musket",
+    "Action1Cost": 3,
+    "Action1ATK": 5,
+    "Action1Effect": "If you control one other \"Tri-Sigil\" Creature, increase this attack's ATK by +1.",
+    "Action2Name": "Tri-Sigil Leader",
+    "Action2Cost": 4,
+    "Action2ATK": "-",
+    "Action2Effect": "All \"Tri-Sigil\" Creatures you control gain +2 DEF until the start of your next turn.",
+    "isToken": false
+  },
+  "ST-T04": {
+    "id": "ST-T04",
+    "face": {
+      "front": {
+        "name": "GC Adamantite Golem",
+        "type": "Titan",
+        "cost": 4,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "GC Adamantite Golem",
+    "type": "Titan",
+    "cost": 4,
+    "speed": "Normal",
+    "faction": "Golem City",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Construct",
+    "SpellType": "",
+    "Stage": "Titan",
+    "BoostRequirement": "\"GC\" Stage I Construct",
+    "DEF": 9,
+    "Action1Name": "Hammer Arm",
+    "Action1Cost": 4,
+    "Action1ATK": 6,
+    "Action1Effect": "-",
+    "Action2Name": "Steam Press",
+    "Action2Cost": 5,
+    "Action2ATK": 7,
+    "Action2Effect": "If you control any other \"GC\" Creature, increase this attack's ATK by +1.",
+    "isToken": false
+  },
+  "ST-C17": {
+    "id": "ST-C17",
+    "face": {
+      "front": {
+        "name": "Planterrainer Scanner",
+        "type": "Creature",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Planterrainer Scanner",
+    "type": "Creature",
+    "cost": 1,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Construct",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 2,
+    "Action1Name": "Scan Pulse",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Draw a card, then discard a card.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C18": {
+    "id": "ST-C18",
+    "face": {
+      "front": {
+        "name": "Planterrainer Infantry",
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Planterrainer Infantry",
+    "type": "Creature",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 3,
+    "Action1Name": "Pulse Rifle",
+    "Action1Cost": 2,
+    "Action1ATK": 4,
+    "Action1Effect": "-",
+    "Action2Name": "Quick Fire",
+    "Action2Cost": 1,
+    "Action2ATK": 2,
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C19": {
+    "id": "ST-C19",
+    "face": {
+      "front": {
+        "name": "Planterrainer Gunner",
+        "type": "Creature",
+        "cost": 3,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Planterrainer Gunner",
+    "type": "Creature",
+    "cost": 3,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 3,
+    "Action1Name": "Heavy Fire",
+    "Action1Cost": 3,
+    "Action1ATK": 5,
+    "Action1Effect": "-",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C20": {
+    "id": "ST-C20",
+    "face": {
+      "front": {
+        "name": "Malice Blob",
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Malice Blob",
+    "type": "Creature",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Monstrosity",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 4,
+    "Action1Name": "Malice Arm",
+    "Action1Cost": 2,
+    "Action1ATK": 4,
+    "Action1Effect": "Before attacking, roll a d6. On a 1, this attack gets -1 ATK. On a 6, this attack gets +2 ATK.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C21": {
+    "id": "ST-C21",
+    "face": {
+      "front": {
+        "name": "Dragonborn Soul Vessel",
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Dragonborn Soul Vessel",
+    "type": "Creature",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Construct",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 4,
+    "Action1Name": "Soul Burst",
+    "Action1Cost": 2,
+    "Action1ATK": 5,
+    "Action1Effect": "After attacking, send this Creature to the Graveyard.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C22": {
+    "id": "ST-C22",
+    "face": {
+      "front": {
+        "name": "Planterrainer Commander",
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Planterrainer Commander",
+    "type": "Creature",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Planterrainer Infantry",
+    "DEF": 5,
+    "Action1Name": "Orders",
+    "Action1Cost": 2,
+    "Action1ATK": "-",
+    "Action1Effect": "Target a \"Planterrainer\" you control and increase its ATK by +2 until the end of your turn.",
+    "Action2Name": "Formation Fire",
+    "Action2Cost": 3,
+    "Action2ATK": 5,
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C23": {
+    "id": "ST-C23",
+    "face": {
+      "front": {
+        "name": "Amalgamated Malice",
+        "type": "Creature",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Amalgamated Malice",
+    "type": "Creature",
+    "cost": 1,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Monstrosity",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Any \"Malice\" Creature",
+    "DEF": 6,
+    "Action1Name": "Encompass",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Target a \"Planterrainer\" you control and increase its ATK by +1 until the start of your next turn.",
+    "Action2Name": "Malice Burst",
+    "Action2Cost": 3,
+    "Action2ATK": 6,
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C24": {
+    "id": "ST-C24",
+    "face": {
+      "front": {
+        "name": "A.D.M.C.U Prototype",
+        "type": "Creature",
+        "cost": 4,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "A.D.M.C.U Prototype",
+    "type": "Creature",
+    "cost": 4,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Construct",
+    "SpellType": "",
+    "Stage": "Stage I",
+    "BoostRequirement": "Dragonborn Soul Vessel",
+    "DEF": 6,
+    "Action1Name": "Draconic Cannon",
+    "Action1Cost": 4,
+    "Action1ATK": 7,
+    "Action1Effect": "-",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-S07": {
+    "id": "ST-S07",
+    "face": {
+      "front": {
+        "name": "Synthesized Rations",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Synthesized Rations",
+    "type": "Spell",
+    "cost": 2,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Normal",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 2,
+    "Action1ATK": "-",
+    "Action1Effect": "All \"Planterrainer\" Creatures you control increase their DEF by +1 until the start of your next turn.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-S08": {
+    "id": "ST-S08",
+    "face": {
+      "front": {
+        "name": "Planterrainer Research",
+        "type": "Spell",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Planterrainer Research",
+    "type": "Spell",
+    "cost": 1,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Normal",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Search your Main Deck for a \"Malice\" Card and add it to your hand. Shuffle the deck afterward.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-S09": {
+    "id": "ST-S09",
+    "face": {
+      "front": {
+        "name": "Adaptive Programming",
+        "type": "Spell",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Adaptive Programming",
+    "type": "Spell",
+    "cost": 1,
+    "speed": "Instant",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Instant",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "If your opponent increases their ATK or DEF, target a \"Planterrainer\" and increase its ATK by +2 until the end of your next turn.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-T05": {
+    "id": "ST-T05",
+    "face": {
+      "front": {
+        "name": "A.D.M.C.U",
+        "type": "Titan",
+        "cost": 5,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "A.D.M.C.U",
+    "type": "Titan",
+    "cost": 5,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Construct",
+    "SpellType": "",
+    "Stage": "Titan",
+    "BoostRequirement": "Stage I \"A.D.M.C.U\"",
+    "DEF": 9,
+    "Action1Name": "Metalic Crush",
+    "Action1Cost": 5,
+    "Action1ATK": 8,
+    "Action1Effect": "-",
+    "Action2Name": "Soul Dragon Cannon",
+    "Action2Cost": 6,
+    "Action2ATK": 9,
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-T06": {
+    "id": "ST-T06",
+    "face": {
+      "front": {
+        "name": "Malice Amalgamation",
+        "type": "Titan",
+        "cost": 4,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Malice Amalgamation",
+    "type": "Titan",
+    "cost": 4,
+    "speed": "Normal",
+    "faction": "Planterrainer",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Monstrosity",
+    "SpellType": "",
+    "Stage": "Titan",
+    "BoostRequirement": "Stage I \"Malice\" Creature",
+    "DEF": 8,
+    "Action1Name": "Malice Augmentation",
+    "Action1Cost": 4,
+    "Action1ATK": "-",
+    "Action1Effect": "All \"Planterrainer\" Creatures you control increase their ATK by +1 until the start of your next turn.",
+    "Action2Name": "Soul Reap",
+    "Action2Cost": 5,
+    "Action2ATK": 7,
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-C25": {
+    "id": "ST-C25",
+    "face": {
+      "front": {
+        "name": "Borgie",
+        "type": "Creature",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Borgie",
+    "type": "Creature",
+    "cost": 1,
+    "speed": "Normal",
+    "faction": "Universal",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Humanoid",
+    "SpellType": "",
+    "Stage": "Basic",
+    "BoostRequirement": "-",
+    "DEF": 3,
+    "Action1Name": "Barter",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Discard one card from your hand, then draw a card.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-S10": {
+    "id": "ST-S10",
+    "face": {
+      "front": {
+        "name": "Lightning Bolt",
+        "type": "Spell",
+        "cost": 1,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Lightning Bolt",
+    "type": "Spell",
+    "cost": 1,
+    "speed": "Normal",
+    "faction": "Universal",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "Normal",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": 1,
+    "Action1ATK": "-",
+    "Action1Effect": "Destroy one Basic Creature your opponent controls.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-T07": {
+    "id": "ST-T07",
+    "face": {
+      "front": {
+        "name": "Irradiated Leviathan",
+        "type": "Titan",
+        "cost": 4,
+        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png"
+      }
+    },
+    "name": "Irradiated Leviathan",
+    "type": "Titan",
+    "cost": 4,
+    "speed": "Normal",
+    "faction": "Universal",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "Monstrosity",
+    "SpellType": "",
+    "Stage": "N/A",
+    "BoostRequirement": "",
+    "DEF": 8,
+    "Action1Name": "Devouring Maw",
+    "Action1Cost": 4,
+    "Action1ATK": 7,
+    "Action1Effect": "If this attack destroys a Creature, increase this Creature's DEF by +1.",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
+    "isToken": false
+  },
+  "ST-R01": {
+    "id": "ST-R01",
     "face": {
       "front": {
         "name": "Erimantite",
         "type": "Resource",
-        "cost": "0",
+        "cost": 0,
         "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Resource.png"
       }
     },
     "name": "Erimantite",
     "type": "Resource",
-    "cost": "0",
-    "speed": "N/A",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Resource Deck",
-    "template": "Resource",
-    "isToken": false
-  },
-  "CHR-023": {
-    "id": "CHR-023",
-    "face": {
-      "front": {
-        "name": "Titan - H (2)",
-        "type": "Titan",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Titan%20-%20H%20%282%29.jpg"
-      }
-    },
-    "name": "Titan - H (2)",
-    "type": "Titan",
-    "cost": "0",
-    "speed": "N/A",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Titan Deck",
-    "template": "Titan",
-    "isToken": false
-  },
-  "CHR-024": {
-    "id": "CHR-024",
-    "face": {
-      "front": {
-        "name": "Titan - H (3)",
-        "type": "Titan",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Titan%20-%20H%20%283%29.jpg"
-      }
-    },
-    "name": "Titan - H (3)",
-    "type": "Titan",
-    "cost": "0",
-    "speed": "N/A",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Titan Deck",
-    "template": "Titan",
-    "isToken": false
-  },
-  "CHR-025": {
-    "id": "CHR-025",
-    "face": {
-      "front": {
-        "name": "Titan (2)",
-        "type": "Titan",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Titan%20%282%29.jpg"
-      }
-    },
-    "name": "Titan (2)",
-    "type": "Titan",
-    "cost": "0",
-    "speed": "N/A",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Titan Deck",
-    "template": "Titan",
-    "isToken": false
-  },
-  "CHR-026": {
-    "id": "CHR-026",
-    "face": {
-      "front": {
-        "name": "Titan (3)",
-        "type": "Titan",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Titan%20%283%29.jpg"
-      }
-    },
-    "name": "Titan (3)",
-    "type": "Titan",
-    "cost": "0",
-    "speed": "N/A",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Titan Deck",
-    "template": "Titan",
-    "isToken": false
-  },
-  "CHR-027": {
-    "id": "CHR-027",
-    "face": {
-      "front": {
-        "name": "Titan",
-        "type": "Titan",
-        "cost": "0",
-        "image": "https://kotuuu.github.io/Chronicle-TCG/cards/Titan.jpg"
-      }
-    },
-    "name": "Titan",
-    "type": "Titan",
-    "cost": "0",
-    "speed": "N/A",
-    "faction": "Unassigned",
-    "rarity": "Prototype",
-    "set": "Prototype",
-    "deck": "Titan Deck",
-    "template": "Titan",
+    "cost": 0,
+    "speed": "Normal",
+    "faction": "Resource",
+    "rarity": "Starter",
+    "set": "Starter",
+    "CreatureType": "",
+    "SpellType": "",
+    "Stage": "N/A",
+    "BoostRequirement": "-",
+    "DEF": "-",
+    "Action1Name": "-",
+    "Action1Cost": "-",
+    "Action1ATK": "-",
+    "Action1Effect": "-",
+    "Action2Name": "-",
+    "Action2Cost": "-",
+    "Action2ATK": "-",
+    "Action2Effect": "-",
     "isToken": false
   }
 }
