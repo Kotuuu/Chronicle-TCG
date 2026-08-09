@@ -3,7 +3,7 @@
   "defaultRessources": {
     "backgrounds": []
   },
-  "customHelp": "CHRONICLE TCG — PLAYTEST CONFIGURATION\n\nDECK CONSTRUCTION\nMain Deck: 25-30 cards, maximum 2 copies of a card.\nTitan Deck: 1-5 Titan cards, maximum 2 copies of a card.\nResource Deck: exactly 15 Resource cards. Resources are exempt from the normal 2-copy limit.\n\nTCG ARENA SETUP\nTitan cards are automatically separated into the visible Titan Deck.\nResource cards are automatically separated into the hidden Resource Deck.\nAll other cards remain in the Main Deck.\n\nGAME START\nDraw 5 cards from the Main Deck. No mulligan. Start with 3 Points.\nThe first player skips both draws on their first turn. Because TCG Arena skips the automatic first-turn draw for both players, the SECOND player should manually draw 1 Main Deck card and 1 Resource card on their first turn.\n\nTURN: DP > SP > MP > BP > EP\nOn later turns, TCG Arena draws 1 Main Deck card and the Resource Deck is configured to draw 1 Resource.\nIf a drawn Resource appears in the normal Hand, play/move it to the Resource Hand zone.\n\nPLAY AREA\nUse C1-C3 for normal Creatures. Use Titan Zone for the single active Titan. Group Stage Boost cards, attached Resources, and Equip Spells with their Creature.\nPlay Spells to the Spell Stack, then move them manually to the correct destination after resolving.\n\nMANUAL RULES\nPlayers enforce Stage Boost requirements, one Creature played from Hand per turn, Resource attachment, Spell costs/timing, combat, Field Spell replacement, direct attacks, Points, hand limit, and deck-out.",
+  "customHelp": "CHRONICLE TCG — PLAYTEST CONFIGURATION\n\nDECK CONSTRUCTION\nMain Deck: 25-30 cards, maximum 2 copies of a card.\nTitan Deck: 1-5 Titan cards, maximum 2 copies of a card.\nResource Deck: exactly 15 Resource cards. Resources are exempt from the normal 2-copy limit.\n\nTCG ARENA SETUP\nTitan cards are automatically separated into the visible Titan Deck.\nResource cards are automatically separated into the hidden Resource Deck.\nAll other cards remain in the Main Deck.\n\nGAME START\nDraw 5 cards from the Main Deck. No mulligan. Start with 3 Points.\nThe first player skips both draws on their first turn. Because TCG Arena skips the automatic first-turn draw for both players, the SECOND player should manually draw 1 Main Deck card and 1 Resource card on their first turn.\n\nTURN: DP > SP > MP > BP > EP\nOn later turns, TCG Arena draws 1 Main Deck card and the Resource Deck is configured to draw 1 Resource.\nIf a drawn Resource appears in the normal Hand, play/move it to the Resource Hand zone.\n\nPLAY AREA LAYOUT\nCenter column (top to bottom): Field Spell Zone, Titan Creature Zone, then 3 Creature Zones (C1-C3).\nLeft of the Play Area: Graveyard above Titan Deck.\nRight of the Play Area: Resource Deck above Main Deck.\nBelow the board: Resource Hand and Spell Stack.\nTitan Deck is public/visible and can be checked at any time. Main Deck contains normal Creatures and Spells.\n\nMANUAL RULES\nPlayers enforce Stage Boost requirements, one Creature played from Hand per turn, Resource attachment, Spell costs/timing, combat, Field Spell replacement, direct attacks, Points, hand limit, and deck-out.",
   "cardRotation": "0",
   "cards": {
     "dataUrl": "https://kotuuu.github.io/Chronicle-TCG/cards.json",
@@ -95,80 +95,127 @@
             {
               "direction": "row",
               "style": {
-                "height": "18vh",
-                "margin": "0.25vh"
+                "margin": "0.35vh"
               },
+              "isSymetricalForOpponents": false,
               "content": [
                 {
-                  "section": "TitanZone",
+                  "direction": "column",
                   "style": {
-                    "width": "20vh"
-                  }
+                    "width": "18vh",
+                    "margin": "0.25vh"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "Discard",
+                      "style": {
+                        "height": "12vh"
+                      }
+                    },
+                    {
+                      "section": "Titan",
+                      "style": {
+                        "height": "12vh"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "62vh",
+                    "margin": "0.25vh"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "FieldSpellZone",
+                      "style": {
+                        "height": "8vh"
+                      }
+                    },
+                    {
+                      "section": "TitanZone",
+                      "style": {
+                        "height": "15vh"
+                      }
+                    },
+                    {
+                      "direction": "row",
+                      "style": {
+                        "height": "20vh",
+                        "margin": "0.15vh"
+                      },
+                      "isSymetricalForOpponents": false,
+                      "content": [
+                        {
+                          "section": "C1",
+                          "style": {
+                            "width": "19vh"
+                          }
+                        },
+                        {
+                          "section": "C2",
+                          "style": {
+                            "width": "19vh"
+                          }
+                        },
+                        {
+                          "section": "C3",
+                          "style": {
+                            "width": "19vh"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "18vh",
+                    "margin": "0.25vh"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "Resource",
+                      "style": {
+                        "height": "12vh"
+                      }
+                    },
+                    {
+                      "section": "Deck",
+                      "style": {
+                        "height": "12vh"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
             },
             {
               "direction": "row",
               "style": {
-                "height": "24vh",
+                "height": "12vh",
                 "margin": "0.25vh"
               },
+              "isSymetricalForOpponents": false,
               "content": [
                 {
-                  "section": "C1",
+                  "section": "Stack",
                   "style": {
-                    "width": "19vh"
-                  }
-                },
-                {
-                  "section": "C2",
-                  "style": {
-                    "width": "19vh"
-                  }
-                },
-                {
-                  "section": "C3",
-                  "style": {
-                    "width": "19vh"
-                  }
-                }
-              ],
-              "isSymetricalForOpponents": false
-            },
-            {
-              "direction": "row",
-              "style": {
-                "height": "16vh",
-                "margin": "0.25vh"
-              },
-              "content": [
-                {
-                  "section": "Titan",
-                  "style": {
-                    "width": "17vh"
-                  }
-                },
-                {
-                  "section": "FieldSpellZone",
-                  "style": {
-                    "width": "18vh"
+                    "width": "24vh"
                   }
                 },
                 {
                   "section": "ResourceHand",
                   "style": {
-                    "width": "30vh"
-                  }
-                },
-                {
-                  "section": "Resource",
-                  "style": {
-                    "width": "17vh"
+                    "width": "44vh"
                   }
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
             }
           ]
         },
@@ -216,14 +263,14 @@
             "showHiddenCardInHistory": false
           },
           "ResourceHand": {
-            "title": "Resource Hand",
+            "title": "Resource Zone",
             "isHidden": "opponent-only",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Resource Hand",
+            "displayedTitle": "Resource Zone",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -303,7 +350,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Field Spell",
+            "displayedTitle": "Field Zone",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -322,6 +369,40 @@
             "displayedTitle": "Spell Stack",
             "opponentAlignment": false,
             "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Deck": {
+            "isDefaultSection": true,
+            "title": "Main Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "displayedTitle": "Main Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Graveyard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "Graveyard",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
