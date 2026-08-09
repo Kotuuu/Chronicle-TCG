@@ -3,16 +3,18 @@
   "defaultRessources": {
     "backgrounds": []
   },
-  "customHelp": "Chronicle TCG starter configuration. Main Deck uses the normal Deck zone. Titan Deck and Resource Deck are separate board zones. During early testing, move Titan and Resource cards into their correct decks manually after loading a deck.",
+  "customHelp": "Chronicle TCG prototype.\n\nMain Deck: 25-30 cards, maximum 2 copies per card.\nTitan Deck: 1-5 Titan cards, maximum 2 copies per card.\nResource Deck: exactly 15 Resource cards; Resources are exempt from the 2-copy limit.\n\nOpening hand: 5 Main Deck cards. No mulligan. Each player starts with 3 Points.\nThe first player skips both draws on their first turn. On later turns, draw 1 from the Main Deck and 1 from the Resource Deck.\n\nChronicle uses manual combat/effect enforcement in TCG Arena. Stage Boosts, attack legality, resource attachment, spell costs, Field Spell replacement, direct attacks, Points, hand limit, and deck-out are handled by the players.",
   "cardRotation": 0,
   "cards": {
-    "dataUrl": "https://Kotuuu.github.io/Chronicle-TCG/cards.json",
-    "cardBack": "https://Kotuuu.github.io/Chronicle-TCG/cards/card-back.png"
+    "dataUrl": "https://kotuuu.github.io/Chronicle-TCG/cards.json",
+    "cardBack": "https://kotuuu.github.io/Chronicle-TCG/cards/Card-Back.png",
+    "cardBackColor": "#000000"
   },
   "deckBuilding": {
     "mainFilters": [
       "type",
       "cost",
+      "name",
       "speed",
       "faction",
       "rarity",
@@ -22,36 +24,68 @@
       {
         "title": "Standard",
         "gameplay": "Standard",
-        "customCategories": []
+        "deckRuleset": "Standard"
       }
-    ]
+    ],
+    "deckRulesets": {
+      "Standard": {
+        "reversedLegality": true,
+        "general": {
+          "min": 25,
+          "max": 30,
+          "maxPerCard": 2
+        },
+        "categories": [
+          {
+            "category": "Titan",
+            "min": 1,
+            "max": 5,
+            "maxPerCard": 2
+          },
+          {
+            "category": "Resource",
+            "min": 15,
+            "max": 15,
+            "maxPerCard": 15
+          }
+        ]
+      }
+    }
   },
   "gameplay": {
     "Standard": {
+      "beforeGameStart": {
+        "chooseAnotherStartingPlayer": false
+      },
       "mulligan": {
-        "info": "Chronicle mulligan — change this text to match the final rulebook.",
+        "info": "No mulligan.",
         "startingHandSize": "5",
-        "drawNewHand": true,
+        "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
       "newTurn": {
-        "drawOnStart": true,
+        "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": "1"
+        "drawPerTurn": 1
       },
-      "defaultNotes": "Starter Chronicle setup. Creature cards can be played to the Creature Field; Titan cards to the Titan Zone. Graveyard is the Discard zone.",
+      "defaultNotes": "Turn order: DP > SP > MP > BP > EP. First player skips both Main Deck and Resource Deck draws on their first turn. Use the first counter as Points (start at 3). Rotate a Creature after it attacks/uses an ability; ready it at the start of your next turn.",
       "tokens": [],
-      "draggableTokens": [],
-      "countersStartingValues": [],
+      "countersStartingValues": [
+        3
+      ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Creature Field",
+          "Titan",
+          "Resource",
+          "Resource Hand",
+          "C1",
+          "C2",
+          "C3",
           "Titan Zone",
-          "Titan Deck",
-          "Resource Deck"
+          "Field Spell Zone"
         ],
         "layout": {
           "direction": "column",
@@ -64,7 +98,7 @@
                 {
                   "section": "Titan Zone",
                   "style": {
-                    "width": "22vh"
+                    "width": "20vh"
                   }
                 }
               ],
@@ -75,26 +109,52 @@
               "style": false,
               "content": [
                 {
-                  "section": "Creature Field",
-                  "style": false
-                }
-              ],
-              "isSymetricalForOpponents": false
-            },
-            {
-              "direction": "row",
-              "style": false,
-              "content": [
-                {
-                  "section": "Titan Deck",
+                  "section": "C1",
                   "style": {
-                    "width": "18vh"
+                    "width": "19vh"
                   }
                 },
                 {
-                  "section": "Resource Deck",
+                  "section": "C2",
                   "style": {
-                    "width": "18vh"
+                    "width": "19vh"
+                  }
+                },
+                {
+                  "section": "C3",
+                  "style": {
+                    "width": "19vh"
+                  }
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Titan",
+                  "style": {
+                    "width": "17vh"
+                  }
+                },
+                {
+                  "section": "Field Spell Zone",
+                  "style": {
+                    "width": "20vh"
+                  }
+                },
+                {
+                  "section": "Resource Hand",
+                  "style": {
+                    "width": "30vh"
+                  }
+                },
+                {
+                  "section": "Resource",
+                  "style": {
+                    "width": "17vh"
                   }
                 }
               ],
@@ -102,15 +162,15 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [],
+        "categoriesAlreadyOnBoard": [
+          "Titan",
+          "Resource"
+        ],
         "autoPlayFromHand": {
-          "Creature": "Creature Field",
-          "Titan": "Titan Zone",
+          "Resource": "Resource Hand",
           "Spell": "Stack"
         },
-        "autoPlayFromStack": {
-          "Spell": "Discard"
-        },
+        "autoPlayFromStack": {},
         "sectionsDict": {
           "Hand": {
             "isDefaultSection": true,
@@ -118,11 +178,11 @@
             "isHidden": "opponent-only",
             "height": "DEFAULT",
             "alignment": "CENTER",
-            "autoPayFrom": true,
+            "autoPayFrom": false,
             "isHorizontalAllowed": false,
             "isGroupForbidden": true,
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
@@ -156,7 +216,7 @@
             "isHorizontalAllowed": false,
             "isGroupForbidden": true,
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "displayedTitle": "Main Deck",
             "noQuickActions": false,
             "enterTapped": false,
@@ -166,15 +226,15 @@
           },
           "Stack": {
             "isDefaultSection": true,
-            "title": "Stack",
+            "title": "Spell Stack",
             "isHidden": "no",
             "height": "HUGE",
             "alignment": "NONE",
             "isHorizontalAllowed": false,
             "isGroupForbidden": true,
-            "displayedTitle": "Stack",
+            "displayedTitle": "Spell Stack",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -224,7 +284,7 @@
             "isHorizontalAllowed": false,
             "isGroupForbidden": true,
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
@@ -232,42 +292,10 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Creature Field": {
-            "title": "Creature Field",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Creature Field",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Titan Zone": {
-            "title": "Titan Zone",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Titan Zone",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Titan Deck": {
+          "Titan": {
             "title": "Titan Deck",
-            "isHidden": "yes",
-            "height": "MEDIUM",
+            "isHidden": "no",
+            "height": "SMALL",
             "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -276,19 +304,116 @@
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": true,
+            "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Resource Deck": {
+          "Resource": {
             "title": "Resource Deck",
             "isHidden": "yes",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "DECK",
+            "drawPerTurn": 1,
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "displayedTitle": "Resource Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Resource Hand": {
+            "title": "Resource Hand",
+            "isHidden": "opponent-only",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Resource Hand",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "C1": {
+            "title": "Creature Zone 1",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "C1",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "C2": {
+            "title": "Creature Zone 2",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "C2",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "C3": {
+            "title": "Creature Zone 3",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "C3",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Titan Zone": {
+            "title": "Titan Creature Zone",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Titan Zone",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Field Spell Zone": {
+            "title": "Field Spell Zone",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Field Spell",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
