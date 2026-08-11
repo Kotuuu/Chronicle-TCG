@@ -3,7 +3,7 @@
   "defaultRessources": {
     "backgrounds": []
   },
-  "customHelp": "CHRONICLE TCG — PLAYTEST CONFIGURATION\n\nDECK CONSTRUCTION\nMain Deck: 25-30 cards, maximum 2 copies of a card.\nTitan Deck: 1-5 Titan cards, maximum 2 copies of a card.\nResource Deck: exactly 15 Resource cards. Resources are exempt from the normal 2-copy limit.\n\nTCG ARENA SETUP\nTitan cards are automatically separated into the visible Titan Deck.\nResource cards are automatically separated into the hidden Resource Deck.\nAll other cards remain in the Main Deck.\n\nGAME START\nDraw 5 cards from the Main Deck. No mulligan. Start with 3 Points.\nThe first player skips both draws on their first turn. Because TCG Arena skips the automatic first-turn draw for both players, the SECOND player should manually draw 1 Main Deck card and 1 Resource card on their first turn.\n\nTURN: DP > SP > MP > BP > EP\nOn later turns, TCG Arena draws 1 Main Deck card and the Resource Deck is configured to draw 1 Resource.\nDrawn Resources go directly into your normal Hand. There is no separate Resource Zone.\n\nPLAY AREA LAYOUT\nCenter column (top to bottom): Field Spell Zone, Titan Creature Zone, then 3 Creature Zones (C1-C3).\nLeft of the Play Area: Graveyard above Titan Deck.\nRight of the Play Area: Resource Deck above Main Deck.\nBelow the board: Spell Stack.\nTitan Deck is public/visible and can be checked at any time. Main Deck contains normal Creatures and Spells.\n\nMANUAL RULES\nPlayers enforce Stage Boost requirements, one Creature played from Hand per turn, Resource attachment, Spell costs/timing, combat, Field Spell replacement, direct attacks, Points, hand limit, and deck-out.",
+  "customHelp": "CHRONICLE TCG — PLAYTEST CONFIGURATION\n\nDECK CONSTRUCTION\nMain Deck: 25-30 cards, maximum 2 copies of a card.\nTitan Deck: 1-5 Titan cards, maximum 2 copies of a card.\nResource Deck: exactly 15 Resource cards. Resources are exempt from the normal 2-copy limit.\n\nTCG ARENA SETUP\nTitan cards are automatically separated into the visible Titan Deck.\nResource cards are automatically separated into the hidden Resource Deck.\nAll other cards remain in the Main Deck.\n\nGAME START\nDraw 5 cards from the Main Deck. No mulligan. Start with 3 Points.\nThe first player skips both draws on their first turn. Because TCG Arena skips the automatic first-turn draw for both players, the SECOND player should manually draw 1 Main Deck card and 1 Resource card on their first turn.\n\nTURN: DP > SP > MP > BP > EP\nOn later turns, TCG Arena draws 1 Main Deck card and the Resource Deck is configured to draw 1 Resource.\nIf a drawn Resource appears in the normal Hand, play/move it to the Resource Hand zone.\n\nPLAY AREA LAYOUT\nCenter column (top to bottom): Field Spell Zone, Titan Creature Zone, then 3 Creature Zones (C1-C3).\nLeft of the Play Area: Graveyard above Titan Deck.\nRight of the Play Area: Resource Deck above Main Deck.\nBelow the board: Resource Hand and Spell Stack.\nTitan Deck is public/visible and can be checked at any time. Main Deck contains normal Creatures and Spells.\n\nMANUAL RULES\nPlayers enforce Stage Boost requirements, one Creature played from Hand per turn, Resource attachment, Spell costs/timing, combat, Field Spell replacement, direct attacks, Points, hand limit, and deck-out.",
   "cardRotation": "0",
   "cards": {
     "dataUrl": "https://kotuuu.github.io/Chronicle-TCG/cards.json",
@@ -71,7 +71,7 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Chronicle: DP > SP > MP > BP > EP. First player skips both first-turn draws. Second player manually draws 1 Main + 1 Resource on their first turn. Resource cards remain in the normal Hand until used/attached. The first counter is Points (start at 3). Rotate a Creature after its Attack/Ability.",
+      "defaultNotes": "Chronicle: DP > SP > MP > BP > EP. First player skips both first-turn draws. Second player manually draws 1 Main + 1 Resource on their first turn. The first counter is Points (start at 3). Rotate a Creature after its Attack/Ability.",
       "tokens": [],
       "countersStartingValues": [
         "3"
@@ -81,6 +81,7 @@
         "customSections": [
           "Titan",
           "Resource",
+          "ResourceHand",
           "C1",
           "C2",
           "C3",
@@ -115,7 +116,7 @@
                     {
                       "section": "Titan",
                       "style": {
-                        "height": "15vh"
+                        "height": "12vh"
                       }
                     }
                   ]
@@ -207,6 +208,12 @@
                   "style": {
                     "width": "24vh"
                   }
+                },
+                {
+                  "section": "ResourceHand",
+                  "style": {
+                    "width": "44vh"
+                  }
                 }
               ]
             }
@@ -217,6 +224,7 @@
           "Resource"
         ],
         "autoPlayFromHand": {
+          "Resource": "ResourceHand",
           "Spell": "Stack"
         },
         "autoPlayFromStack": {},
@@ -247,6 +255,22 @@
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "displayedTitle": "Resource Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ResourceHand": {
+            "title": "Resource Zone",
+            "isHidden": "opponent-only",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Resource Zone",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
